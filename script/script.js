@@ -165,7 +165,7 @@ function init() {
           var limestone = L.geoJson(null, {
             pointToLayer: function(feature, latlng) {
               var icn = L.icon({
-                iconUrl: 'img/icon/limestone.png',
+                iconUrl: 'img/icon/Limestone.png',
                 iconSize: [24, 24],
               });
               var marker = L.marker(latlng, {
@@ -197,7 +197,7 @@ function init() {
           var granite = L.geoJson(null, {
             pointToLayer: function(feature, latlng) {
               var icn = L.icon({
-                iconUrl: 'img/icon/granite.png',
+                iconUrl: 'img/icon/Granite.png',
                 iconSize: [24, 24],
               });
               var marker = L.marker(latlng, {
@@ -261,7 +261,7 @@ function init() {
           var bivalvia = L.geoJson(null, {
             pointToLayer: function(feature, latlng) {
               var icn = L.icon({
-                iconUrl: 'img/icon/bivalvia.png',
+                iconUrl: 'img/icon/Bivalvia.png',
                 iconSize: [24, 24],
               });
               var marker = L.marker(latlng, {
@@ -341,7 +341,7 @@ function init() {
           var parsnip = L.geoJson(null, {
             pointToLayer: function(feature, latlng) {
               var icn = L.icon({
-                iconUrl: 'img/icon/parsnip.png',
+                iconUrl: 'img/icon/Parsnip.png',
                 iconSize: [24, 24],
               });
               var marker = L.marker(latlng, {
