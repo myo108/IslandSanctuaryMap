@@ -1,0 +1,119 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-56.7, -6]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-18.4,29.2]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-28.8,33.4]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-39.9,39.5]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-41.5,35.6]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-42.7,59.8]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-39.9,70.9]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-16,68.5]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [18.7,66.5]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [0.5,21.1]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-18.1,9.4]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-31.8,4]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-37,3.6]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-40.6,7.1]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.7,9.5]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-51,68.2 ]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-17.8,-7.7]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-41,-7]
+          }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.9,-6]
+          }
+      }
+    ]
+}
