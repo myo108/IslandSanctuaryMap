@@ -14,18 +14,6 @@ function init() {
         }).addTo(map);
         //コントローラーを左下に
           L.control.zoom({position:'bottomleft'}).addTo(map);
-        //左下に座標[y,x]
-            var options = {
-            position: 'bottomleft', // ’bottomleft’,’bottomright’,’topleft’,’topright’
-            numDigits: 2
-          }
-          L.control.mousePosition(options).addTo(map);
-
-          function onEachFeature(feature, layer) {
-            if (feature.properties && feature.properties.popupContent) {
-                layer.bindPopup(feature.properties.popupContent);
-            }
-        }
         //geojson設定
           //リンゴ
           var apple = L.geoJson(null, {
