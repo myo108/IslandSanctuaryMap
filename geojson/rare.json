@@ -161,6 +161,16 @@
         "type": "Point",
         "coordinates": [51.33, 55.38]
       }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "マーモット",
+          "popupContent": "ET09:00~12:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74, 40.04]
+      }
     }
   ]
 }
