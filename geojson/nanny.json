@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [5.1,27.99],
+                [-1.41,27.53],
+                [-9.32,23.73],
+                [-13.01,6.49],
+                [0,0.18]
+            ]]
+        }
+      },{
+        "type": "Feature",
+        "properties": {
+            "name": "アイランド・ビリー",
+            "popupContent": "ET03:00~06:00 | X:26,Y:22 | 大型"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.87,16.64]
+        }
+      }
+    ]
+}

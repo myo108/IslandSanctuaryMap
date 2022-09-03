@@ -368,7 +368,298 @@ function init() {
           })
           $.getJSON("geojson/popoto.json", function(data) {
             popoto.addData(data);
-          });          
+          });   
+          //opoopo
+          var opoopo = L.geoJson(null, {
+            pointToLayer: function(feature, latlng) {
+              var icn = L.icon({
+                iconUrl: 'img/icon/transparent.png',
+                iconSize: [24, 24],
+              });
+              var marker = L.marker(latlng, {
+                icon: icn
+              });
+              marker.bindTooltip("オポオポ",{permanent: true, direction:"center"}).openTooltip();
+              return marker;
+            },
+            style:{
+              color:'#ff7800',
+              weight:3,
+              opacity: 0.65,
+            },
+          })
+
+          $.getJSON("geojson/opoopo.json", function(data) {
+            opoopo.addData(data);
+          });
+    
+          //sheep
+          var sheep = L.geoJson(null, {
+            pointToLayer: function(feature, latlng) {
+              var icn = L.icon({
+                iconUrl: 'img/icon/transparent.png',
+                iconSize: [24, 24],
+              });
+              var marker = L.marker(latlng, {
+                icon: icn
+              });
+              marker.bindTooltip("シープ",{permanent: true, direction:"center"}).openTooltip();
+              return marker;
+            },
+            style:{
+              color:'white',
+              weight:3,
+              opacity: 0.8,
+            },
+          })
+          $.getJSON("geojson/sheep.json", function(data) {
+            sheep.addData(data);
+          });     
+          //chocobo
+          var chocobo = L.geoJson(null, {
+            pointToLayer: function(feature, latlng) {
+              var icn = L.icon({
+                iconUrl: 'img/icon/transparent.png',
+                iconSize: [24, 24],
+              });
+              var marker = L.marker(latlng, {
+                icon: icn
+              });
+              marker.bindTooltip("チョコボ",{permanent: true, direction:"center"}).openTooltip();
+              return marker;
+            },
+            style:{
+              color:'#C58E15',
+              weight:3,
+              opacity: 0.65,
+            },
+          })
+          $.getJSON("geojson/chocobo.json", function(data) {
+            chocobo.addData(data);
+          });
+          //doe
+          var doe = L.geoJson(null, {
+            pointToLayer: function(feature, latlng) {
+              var icn = L.icon({
+                iconUrl: 'img/icon/transparent.png',
+                iconSize: [24, 24],
+              });
+              var marker = L.marker(latlng, {
+                icon: icn
+              });
+              marker.bindTooltip("アイランド・ドゥ",{permanent: true, direction:"center"}).openTooltip();
+              return marker;
+            },
+            style:{
+              color:'#4A5DA8',
+              weight:3,
+              opacity: 0.65,
+            },
+          })
+          $.getJSON("geojson/doe.json", function(data) {
+            doe.addData(data);
+          });        
+        //coblyn
+        var coblyn = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("コブラン",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#3274bd',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/coblyn.json", function(data) {
+          coblyn.addData(data);
+        });
+        //glyptodon
+        var glyptodon = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("グリプトドン",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#6d6a7b',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/glyptodon.json", function(data) {
+          glyptodon.addData(data);
+        });
+        //apkallu
+        var apkallu = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("アプカル",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#6c825e',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/apkallu.json", function(data) {
+          apkallu.addData(data);
+        });
+        //blueback
+        var blueback = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("ブルーバック",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#439cff',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/blueback.json", function(data) {
+          blueback.addData(data);
+        });   
+        //dodo
+        var dodo = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("ドードー",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#3b3836',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/dodo.json", function(data) {
+          dodo.addData(data);
+        }); 
+        //nanny
+        var nanny = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("アイランド・ナニー",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#645448',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/nanny.json", function(data) {
+          nanny.addData(data);
+        });
+        //squirrel
+        var squirrel = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("スクウィレル",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#ac9353',
+            weight:3,
+            opacity: 0.65,
+          },
+          
+        })
+        $.getJSON("geojson/squirrel.json", function(data) {
+          squirrel.addData(data);
+        });    
+        //aurochs
+        var aurochs = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = L.icon({
+              iconUrl: 'img/icon/transparent.png',
+              iconSize: [24, 24],
+            });
+            var marker = L.marker(latlng, {
+              icon: icn
+            });
+            marker.bindTooltip("オーロックス",{permanent: true, direction:"center"}).openTooltip();
+            return marker;
+          },
+          style:{
+            color:'#aaa',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/aurochs.json", function(data) {
+          aurochs.addData(data);
+        });
+        //rare
+        var rare = L.geoJson(null, {
+          pointToLayer: function(feature, latlng) {
+            var icn = {
+              radius: 7,
+              fillColor: "#5047b2",
+              color: "#000",
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.8
+            };
+            var marker = L.circleMarker(latlng, icn);
+            marker.bindPopup( feature.properties.name +'<br>'+ feature.properties.popupContent);
+            return marker;
+          },
+          style:{
+            color:'#aaa',
+            weight:3,
+            opacity: 0.65,
+          },
+        })
+        $.getJSON("geojson/rare.json", function(data) {
+          rare.addData(data);
+        });                           
         //オーバーレイフィルター設定
         var overlayMaps = {
             "<img src='img/icon/palmLeaf.png'align='center'width='36' height='36' style='margin:2px' /><img src='img/icon/palmLog.png'align='center'width='36' height='36'style='margin:2px' /> パームツリー":palm,
@@ -389,11 +680,25 @@ function init() {
             "<img src='img/icon/Bivalvia.png'align='center'width='36' height='36'style='margin:2px' /><img src='img/icon/saltwaterFish.png'align='center'width='36' height='36'style='margin:2px' /> 大きな貝":bivalvia,
             "<img src='img/icon/seaweed.png'align='center'width='36' height='36'style='margin:2px' /><img src='img/icon/squid.png'align='center'width='36' height='36'style='margin:2px' /> 海藻の茂み":seaweed,
             "<img src='img/icon/coral.png'align='center'width='36' height='36'style='margin:2px' /><img src='img/icon/jellyfish.png'align='center'width='36' height='36'style='margin:2px' /> 珊瑚礁":coral,
+            "<img src='img/icon/Parsnip.png'align='center'width='36' height='36'style='margin:2px' /><img src='img/icon/grass.png'align='center'width='36' height='36'style='margin:2px' />成熟しきったパースニップ":parsnip,
+            "<img src='img/icon/popoto.png'align='center'width='36' height='36'style='margin:2px' /><img src='img/icon/grass.png'align='center'width='36' height='36'style='margin:2px' />成熟しきったポポト":popoto,
             "<img src='img/icon/pumpkin.png'align='center'width='36' height='36'style='margin:2px' />食い荒らされたパンプキン":pumpkin,
             "<img src='img/icon/cabbege.png'align='center'width='36' height='36'style='margin:2px' />食い荒らされたキャベツ":cabbege,
-            "<img src='img/icon/Parsnip.png'align='center'width='36' height='36'style='margin:2px' />成熟しきったパースニップ":parsnip,
-            "<img src='img/icon/popoto.png'align='center'width='36' height='36'style='margin:2px' />成熟しきったポポト":popoto,
+            "<span style='color:hsla(31,100%,58%,0.93);font-size:1.8em'>●</span>オポオポ":opoopo,
+            "<span style='color:white;font-size:1.8em'>●</span>シープ":sheep,
+            "<span style='color:hsla(41,100%,77%,0.93);font-size:1.8em'>●</span>チョコボ":chocobo,
+            "<span style='color:#4A5DA8;font-size:1.8em'>●</span>アイランド・ドゥ":doe,
+            "<span style='color:#3274bd;font-size:1.8em'>●</span>コブラン":coblyn,
+            "<span style='color:#6d6a7b;font-size:1.8em'>●</span>グリプトドン":glyptodon,
+            "<span style='color:#6c825e;font-size:1.8em'>●</span>アプカル":apkallu,
+            "<span style='color:#439cff;font-size:1.8em'>●</span>ブルーバック":blueback,
+            "<span style='color:#3b3836;font-size:1.8em'>●</span>ドードー":dodo,
+            "<span style='color:#645448;font-size:1.8em'>●</span>アイランド・ナニー":nanny,
+            "<span style='color:#ac9353;font-size:1.8em'>●</span>スクウィレル":squirrel,
+            "<span style='color:#aaa;font-size:1.8em'>●</span>オーロックス":aurochs,
+            "<span style='color:#5047b2;font-size:1.8em'>●</span>レア動物":rare,
         };
-        var layerControl = L.control.layers(null,overlayMaps,{collapsed: false}).addTo(map);
-
+        
+       L.control.layers(null,overlayMaps,{collapsed: false}).addTo(map);
+       
 }

@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+      "type": "Feature",
+      "properties": {
+          "name": "パライソドードー",
+          "popupContent": "ET15:00~18:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.32,70.73]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "グランバッファロー",
+          "popupContent": "曇り | 大型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.92,51.84]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "パライソアプカル",
+          "popupContent": "ET12:00~18:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.63,70.32]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "ゴールドバック",
+          "popupContent": "雨 | 大型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.22,-19.64]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "アイランド・ビリー",
+          "popupContent": "ET03:00~06:00 | 大型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.05,27.06]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "グリプトドン",
+          "popupContent": "ET00:00~03:00 | 中型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.13, 72.34]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "イエローコブラン",
+          "popupContent": "霧 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.15, 42.94]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "アイランド・スタッグ",
+          "popupContent": "ET18:00~21:00 | 中型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.84, 39.5]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "黒チョコボ",
+          "popupContent": "快晴 | 中型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.46, 71.41]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "カラクール",
+          "popupContent": "晴 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.32, 18.81]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "エミュー",
+          "popupContent": "ET06:00~09:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.59, -0.18]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "ビーチシェル",
+          "popupContent": "雨 | ET00:00~03:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.3, 67.54]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "アリゲーター",
+          "popupContent": "暴雨 | 大型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.71, 12.38]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "シャインフリース",
+          "popupContent": "霧 | ET18:00~21:00 | 小型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-21.27, 28.92]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "パイッサ",
+          "popupContent": "晴 | ET12:00~15:00 | 中型<br>※フライング必須"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.73, -16.64]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "グゥーブー",
+          "popupContent": "霧 | ET09:00~12:00 | 大型"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.33, 55.38]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+          "name": "opoopo"
+      },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-51.15, 12.21],
+                [-33.93, 9.45],
+                [-32.34,  -7.89],
+                [-55.2, -9.1]
+            ]]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-48.87, 30.15],
+                [-51.86,41.38],
+                [-66.09,37.58],
+                [-65.74,30.75],
+                [-60,25.96]
+            ]]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-43.77, 2.81]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.71, 34.6]
+        }
+      }
+    ]
+}

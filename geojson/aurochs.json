@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-86.13,42.29],[-86.13,33.28],[-95.98,33.58],[-82.97,54.98],[-73.13,51.4]
+            ]]
+        }
+      },{
+        "type": "Feature",
+        "properties": {
+            "name": "グランバッファロー",
+            "popupContent": "曇り | X:12,Y:17 | 大型"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-82.97,46.15]
+        }
+      }
+    ]
+}

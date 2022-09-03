@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-2.64, 25.8],
+                [-19.86,22.11],
+                [-16.7,37.58],
+                [-1.93,27.68]
+            ]]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-71.19,51.78],[-84.02,42.16],[-71.72,39.37],[-63.81,44.34]
+            ]]
+        }
+      }
+      ,{
+        "type": "Feature",
+        "properties": {
+            "name": "マーモット",
+            "popupContent": "ET09:00~12:00 | X:15,Y:19 | 小型"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.6,45.58]
+        }
+      }
+      ,{
+        "type": "Feature",
+        "properties": {
+            "name": "マーモット",
+            "popupContent": "ET09:00~12:00 | X:15,Y:19 | 小型"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-12.66,29.69]
+        }
+      }
+    ]
+}
