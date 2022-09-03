@@ -14,6 +14,18 @@ function init() {
         }).addTo(map);
         //コントローラーを左下に
           L.control.zoom({position:'bottomleft'}).addTo(map);
+        //左下に座標[y,x]
+            var options = {
+            position: 'bottomleft', // ’bottomleft’,’bottomright’,’topleft’,’topright’
+            numDigits: 2
+          }
+          L.control.mousePosition(options).addTo(map);
+
+          function onEachFeature(feature, layer) {
+            if (feature.properties && feature.properties.popupContent) {
+                layer.bindPopup(feature.properties.popupContent);
+            }
+        }
         //geojson設定
           //リンゴ
           var apple = L.geoJson(null, {
@@ -491,7 +503,7 @@ function init() {
             var marker = L.marker(latlng, {
               icon: icn
             });
-            marker.bindTooltip("グリプトドン",{permanent: true, direction:"center"}).openTooltip();
+            marker.bindTooltip("グリプトドン・カフ",{permanent: true, direction:"center"}).openTooltip();
             return marker;
           },
           style:{
@@ -689,7 +701,7 @@ function init() {
             "<span style='color:hsla(41,100%,77%,0.93);font-size:1.8em'>●</span>チョコボ":chocobo,
             "<span style='color:#4A5DA8;font-size:1.8em'>●</span>アイランド・ドゥ":doe,
             "<span style='color:#3274bd;font-size:1.8em'>●</span>コブラン":coblyn,
-            "<span style='color:#6d6a7b;font-size:1.8em'>●</span>グリプトドン":glyptodon,
+            "<span style='color:#6d6a7b;font-size:1.8em'>●</span>グリプトドン・カフ":glyptodon,
             "<span style='color:#6c825e;font-size:1.8em'>●</span>アプカル":apkallu,
             "<span style='color:#439cff;font-size:1.8em'>●</span>ブルーバック":blueback,
             "<span style='color:#3b3836;font-size:1.8em'>●</span>ドードー":dodo,
