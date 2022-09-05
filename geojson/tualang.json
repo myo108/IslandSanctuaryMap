@@ -172,14 +172,20 @@
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [-15.1,-17.3]
+            "coordinates": [-2.1,-31.9]
           }
       },{
         "type": "Feature",
         "geometry": {
-            "type": "Point",
-            "coordinates": [-2.1,-31.9]
-          }
+          "type": "Point",
+          "coordinates": [-91.05,23.4]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-94.92,26.9]
+        }
       }
     ]
 }

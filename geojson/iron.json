@@ -84,6 +84,24 @@
           "type": "Point",
           "coordinates": [21.25,74.7]
         }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-7.56,59.09]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.79,57.42]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-4.92,57.42]
+        }
       }
     ]
 }

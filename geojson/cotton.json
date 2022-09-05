@@ -84,6 +84,66 @@
             "type": "Point",
             "coordinates": [10.7,-22.9]
           }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-88.95,28.61]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-86.48,26.43]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-89.65,27.84]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-91.76,28.92]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-94.92,27.99]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-93.16,25.8]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-91.23,23.24]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-7.91,58.36]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-90,22.11]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-88.95,21.29]
+        }
       }
     ]
 }

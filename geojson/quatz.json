@@ -24,6 +24,54 @@
           "type": "Point",
           "coordinates": [14.7,74]
         }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-27.07,56.66]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-26.89,56.46]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-27.07,55.86]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-27.25,55.28]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.62,58.17]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.45,57.89]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.33,57.61]
+        }
+      },{
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.44,57.98]
+        }
       }
     ]
 }
